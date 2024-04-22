@@ -1,6 +1,4 @@
-spring:
-    application:
-        name: Config-Server-Git
+
 eureka:
   instance:
     prefer-ip-address: true
