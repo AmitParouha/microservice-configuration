@@ -1,3 +1,6 @@
-spring:
-  application:
-    name: CONFIG_SERVER
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry:true
+    register-with-eureka:true
